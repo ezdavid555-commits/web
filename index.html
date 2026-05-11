@@ -34,7 +34,7 @@
 
     <!-- LOGO -->
     <a class="navbar-brand" href="index.html">
-      <img src="img/logo.png" alt="CrossMotos">
+      <img src="img/Logo.png" alt="CrossMotos">
     </a>
 
     <!-- BOTON MOBILE -->
@@ -59,23 +59,52 @@
           </a>
         </li>
 
-        <!-- CASCOS -->
+        <!-- DROPDOWN -->
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             id="productosDropdown"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+
+            Productos
+
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-dark">
+
+            <li>
+              <a class="dropdown-item" href="catalogo.html">
+                Cascos
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="luces.html">
+                Luces LED
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item active" href="guantes.html">
+                Guantes
+              </a>
+            </li>
+
+          </ul>
+
+        </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="catalogo.html">
-            Cascos
+          <a class="nav-link" href="proximamente.html">
+            Proximamente
           </a>
         </li>
 
-        <!-- PROXIMAMENTE -->
         <li class="nav-item">
-          <a class="nav-link" href="proximamente.html">
-          Proximamente
-        </a>
-        </li>
-
-        <!-- CONTACTO -->
-        <li class="nav-item">
-          <a class="nav-link" href="#contacto">
+          <a class="nav-link" href="index.html#contacto">
             Contacto
           </a>
         </li>
@@ -301,31 +330,36 @@
 
       <div class="col-md-4">
 
-        <div class="card custom-card h-100">
+    <a href="catalogo.html" class="card-link">
 
-          <img src="img/casco.jpg"
-               class="card-img-top"
-               alt="Cascos">
+    <div class="card custom-card h-100">
 
-          <div class="card-body">
+      <img src="img/casco.jpg"
+           class="card-img-top"
+           alt="Cascos">
 
-            <h5 class="card-title">
-              Cascos
-            </h5>
+      <div class="card-body">
 
-            <p class="card-text">
-              Protección y estilo premium.
-            </p>
+        <h5 class="card-title">
+          Cascos
+        </h5>
 
-          </div>
-
-        </div>
+        <p class="card-text">
+          Protección y estilo premium.
+        </p>
 
       </div>
 
+    </div>
+
+  </a>
+
+</div>
       <!-- CARD 2 -->
 
       <div class="col-md-4">
+
+    <a href="luces.html" class="card-link">
 
         <div class="card custom-card h-100">
 
@@ -346,12 +380,16 @@
           </div>
 
         </div>
+     
+     </a>   
 
-      </div>
+    </div>
 
       <!-- CARD 3 -->
 
       <div class="col-md-4">
+      
+      <a href="guantes.html" class="card-link">
 
         <div class="card custom-card h-100">
 
@@ -372,6 +410,8 @@
           </div>
 
         </div>
+
+      </a>
 
       </div>
 

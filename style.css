@@ -607,3 +607,31 @@ footer{
   }
 
 }
+/* LINK TARJETAS */
+
+
+.card-link{
+  text-decoration:none !important;
+  color:inherit;
+  display:block;
+}
+
+.card-link:hover{
+  text-decoration:none !important;
+  color:inherit;
+}
+/* ITEM ACTIVO DROPDOWN */
+
+.dropdown-item.active,
+.dropdown-item:active{
+  background:var(--verde);
+  color:black !important;
+  font-weight:600;
+}
+
+/* HOVER */
+
+.dropdown-item:hover{
+  background:var(--verde);
+  color:black !important;
+}
